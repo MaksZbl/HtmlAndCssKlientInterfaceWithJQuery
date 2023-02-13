@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Learn more</title>
+</head>
+
+<body>
+    <style>
+        .mrg {
+            margin-top: 10px;
+        }
+    </style>
+
+    <div class="header" style="background-color: #333; height: 60px;">
+        <div class="container">
+            <div class="row">
+                <a href="file:///C:/Users/Stark/Desktop/PAI(project)/index.html" class="text-decoration-none col-md-4">
+                    <h1 style=" color: #fff;">Web-Future</h1>
+                </a>
+                <h3 class="col-md-8 text-uppercase text-center" style="color: #fff; padding-top: 10px;">We write our
+                    history</h3>
+            </div>
+        </div>
+    </div>
+    <div class="tablica">
+        <div class="container">
+            <h3 class="text-uppercase text-center" style="font-style: italic; text-decoration:underline;">our Team</h3>
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr class="active">
+                        <th>Stanowisko</th>
+                        <th>Imie</th>
+                        <th>Nazwisko</th>
+                        <th>Numer telefonu</th>
+                        <th>email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Projektant</td>
+                        <td>Andrzej</td>
+                        <td>Kot</td>
+                        <td>+48501501501</td>
+                        <td>andrzej.kot@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Projektant(Graphic Design)</td>
+                        <td>Matthew</td>
+                        <td>Dix</td>
+                        <td>+48501501502</td>
+                        <td>matthew.dix@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Projektant(UX Design)</td>
+                        <td>Christopher</td>
+                        <td>Campbell</td>
+                        <td>+48501501503</td>
+                        <td>christopher.campbell@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Programista</td>
+                        <td>Michael</td>
+                        <td>Fertig</td>
+                        <td>+48501501504</td>
+                        <td>michael.fertig@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="Formularz" style="margin-top: 100px;">
+        <div class="container">
+            <h4>Dodaj pracownika</h4>
+            <form role="form">
+                <div class="form-group mrg">
+                    <label for="name">Imie:</label>
+                    <input type="text" class="form-control" id="imie" placeholder="Wpisz imie">
+                </div>
+                <div class="form-group mrg">
+                    <label for="nazwisko">Nazwisko:</label>
+                    <input type="text" class="form-control" id="nazwisko" placeholder="Wpisz nazwisko">
+                </div>
+                <div class="form-group mrg">
+                    <label for="stanowisko">Stanowisko:</label>
+                    <input type="text" class="form-control" id="stanowisko" placeholder="Wpisz stanowisko">
+                </div>
+                <div class="form-group mrg">
+                    <label for="numer">Numer telefonu:</label>
+                    <input type="number" class="form-control" id="numer" placeholder="Wpisz numer telefonu">
+                </div>
+                <div class="form-group mrg">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Wpisz email">
+                </div>
+                <div class="button_success">
+                    <button type="button" class="btn btnS btn-success" id="sucess"
+                        style="margin-top: 10px;">Dodaj</button>
+                    <button type="button" class="btn btnD btn-danger" id="sucess"
+                        style="margin-top: 10px;">Usun</button>
+                </div>
+                <div class="button_info" style="margin-top: 10px;">
+                    <button type="button" class="btn btnI btn-info" id="sucess" style="margin-top: 10px;">Dodaj z bazy
+                        danych</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="Script/script.js"></script>
+
+</body>
+
+
+</html>
